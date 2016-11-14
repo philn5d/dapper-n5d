@@ -41,7 +41,7 @@ namespace Tests
             /// <summary>
             /// PK not ending in Id or id or ID
             /// </summary>
-            [Dapper.Contrib.Attributes.ExplicitKey]
+            [ExplicitKey]
             public Guid ThePrimaryKey { get; set; }
         }
 

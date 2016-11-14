@@ -3,7 +3,7 @@
 namespace Dapper.Contrib.Attributes
 {
     [AttributeUsage(AttributeTargets.Property, Inherited = false, AllowMultiple = false)]
-    sealed class ExplicitKeyAttribute : Attribute
+    public sealed class ExplicitKeyAttribute : Attribute
     {
     }
 }
